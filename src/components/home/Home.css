@@ -1,0 +1,27 @@
+.Home {
+  font-size: 22px;
+}
+.Home h1 {
+  color: #222;
+}
+.Home .line {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Home .line .service {
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 2px #00000020;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  font-size: 16px;
+  margin: 0 50px;
+}
+.Home .line .service .block {
+  height: 80px;
+}
