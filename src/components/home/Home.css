@@ -1,5 +1,8 @@
-.Home {
-  font-size: 22px;
+.Home p.big {
+  font-size: 20px;
+}
+.Home .big {
+  font-size: 48px;
 }
 .Home h1 {
   color: #222;
@@ -7,7 +10,20 @@
 .Home .line {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.Home .line .half {
+  width: 40%;
+  padding: 10px;
+}
+.Home .line .left {
+  text-align: left;
+  padding: 20px;
+}
+.Home .line.around .svg {
+  height: 100%;
+  width: 100%;
 }
 .Home .line .service {
   border-radius: 10px;
@@ -24,4 +40,8 @@
 }
 .Home .line .service .block {
   height: 80px;
+}
+.Home .line .service .svg {
+  height: 200px;
+  width: 200px;
 }

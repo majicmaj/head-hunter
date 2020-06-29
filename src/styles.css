@@ -1,9 +1,13 @@
 body {
   margin: 0;
   background: #fff;
+  color: #222;
 }
 .App {
   font-family: "Heebo", sans-serif;
   text-align: center;
-  padding: 0 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

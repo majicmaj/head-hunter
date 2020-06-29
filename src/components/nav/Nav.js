@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import { ReactComponent as Headshot } from "../../resources/headshot.svg";
 
 export default function Routes() {
   return (
     <nav className="Nav">
       <Link className="link logo" to="/">
+        <Headshot className="headshot" />
         <h1>HEAD HUNTER</h1>
       </Link>
       <div className="links">

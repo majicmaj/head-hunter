@@ -3,7 +3,9 @@ import { Switch, Route } from "react-router-dom";
 
 import Resume from "../resume/Resume";
 import Home from "../home/Home";
-export default function Routes() {
+import Jobs from "../jobs/Jobs";
+
+export default function Routes({ listings }) {
   return (
     <Switch className="Routes">
       <Route exact path="/">
@@ -11,9 +13,10 @@ export default function Routes() {
       </Route>
       <Route exact path="/resume">
         <h1>Resume</h1>
+        <Resume />
       </Route>
       <Route exact path="/jobs">
-        <h1>Jobs</h1>
+        <Jobs listings={listings} />
       </Route>
       <Route exact path="/sign_in">
         <h1>Sign In</h1>
